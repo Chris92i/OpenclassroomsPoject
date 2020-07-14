@@ -48,20 +48,9 @@ table {
 }
 
 
-p
-{
-    color: blue;
-}
-
-h2
-
-{
-    color: black;
-    
-}
-
-#colonne_gauche
+.colonne
 {
     background-color: FFFF00;
     width: 30%;
 }
+
