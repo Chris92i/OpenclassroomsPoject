@@ -107,16 +107,18 @@ table {
 .loisirs
 {
 	height: 30%;
-	display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-
+.loisirs i
 {
-	padding: 5px 25px 5px 25px;
+	
+	width: 30%;
+	margin: auto;
 }
+
 
 /* tout ce qui concerne la partie de droite */
 
@@ -130,6 +132,11 @@ table {
 .chris
 {
 	color: #FDD835;	
+}
+
+.dev
+{
+	text-decoration: underline #FDD835;
 }
 
 #parcour h1
