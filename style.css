@@ -80,6 +80,8 @@ table {
 	margin-top: 5px;  
 	padding: 5px;
 	border-radius: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 #colonne h1
@@ -92,6 +94,7 @@ table {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 100%;
+	
 }
 
 .contact
