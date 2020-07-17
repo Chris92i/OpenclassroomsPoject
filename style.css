@@ -52,7 +52,6 @@ table {
 #conteneur_global
 {
 	max-width: 210mm;
-	max-height: 297mm;
 	display: flex;
 	justify-content: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -79,12 +78,12 @@ table {
 	margin-right: auto;
 	margin-top: 5px;  
 	padding: 5px;
-	border-radius: 100%;
+	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 }
 
-#colonne h1
+#colonne h2
 {
 	background-color: #455A64;
 	color: #FDD835;
