@@ -49,6 +49,8 @@ table {
 
 /* au dessus reset css d'Eric Meyers */
 
+/* juste en dessous le conteneur général du cv */
+
 #conteneur_global
 {
 	max-width: 210mm;
@@ -58,6 +60,7 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
+	height: 100%;
 }
 
 /* tout ce qui concerne la colonne de gauche */
@@ -110,6 +113,7 @@ table {
 .a_propos p
 {
 	padding: 5px 25px 5px 25px;
+	flex-grow: 1;
 }
 
 
@@ -143,10 +147,31 @@ table {
 
 #parcour
 {
-	text-align: center;
-	flex: auto;
+	margin-left: 5%;
 	padding-left: 5px;
+	/* width: auto; */
+	display: flex;
+	flex-wrap: wrap;
+	
 }
+
+.header
+{
+	margin-top: 7%;
+	max-height: 20%;
+}
+
+.main
+{
+	display: flex;
+	
+}
+
+#parcour h1 h2
+{
+	text-transform: uppercase;
+}
+
 
 .chris
 {
@@ -158,6 +183,31 @@ table {
 	text-decoration: underline #FDD835;
 }
 
+#parcour i
+{
+	color: #FDD835;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+.icones_titres
+{
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 2px solid #FDD835;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#parcour article
+{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
 #parcour h1
 {
 	font-size: xx-large;
@@ -167,3 +217,4 @@ table {
 {
 	font-size: x-large;
 }
+
