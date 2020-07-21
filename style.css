@@ -109,11 +109,18 @@ table {
 	padding: 5px 25px 5px 25px;
 }
 
+.a_propos
+{
+	/*
+	display: flex;
+	min-height: 50%;
+	flex-grow: 1;
+	*/
+}
 
 .a_propos p
 {
 	padding: 5px 25px 5px 25px;
-	flex-grow: 1;
 }
 
 
@@ -147,6 +154,7 @@ table {
 
 #parcour
 {
+	width: auto;
 	margin-left: 5%;
 	padding-left: 5px;
 	/* width: auto; */
@@ -167,7 +175,7 @@ table {
 	
 }
 
-#parcour h1 h2
+#parcour h1 h2 h3
 {
 	text-transform: uppercase;
 }
@@ -187,7 +195,7 @@ table {
 {
 	color: #FDD835;
 	margin-left: 5px;
-	margin-right: 5px;
+	margin-right: 20px;
 
 }
 
@@ -205,7 +213,13 @@ table {
 {
 	display: flex;
 	justify-content: flex-start;
-	
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#parcour .date .intitule
+{
+	text-align: left;
 }
 
 #parcour h1
