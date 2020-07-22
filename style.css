@@ -106,7 +106,9 @@ table {
 
 .contact p
 {
-	padding: 5px 25px 5px 25px;
+	padding: 5px 25px 10px 25px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .a_propos
@@ -172,6 +174,7 @@ table {
 .main
 {
 	display: flex;
+	width: 100%;
 	
 }
 
@@ -199,6 +202,16 @@ table {
 
 }
 
+.icones_titres h3
+{
+	color: #455A64;
+}
+
+.icones_titres h4 p
+{
+	color: #455A64;
+}
+
 .icones_titres
 {
 	display: flex;
@@ -220,6 +233,12 @@ table {
 #parcour .date .intitule
 {
 	text-align: left;
+}
+
+.date
+{
+	display: flex;
+	justify-content: flex-start;
 }
 
 #parcour h1
