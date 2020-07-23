@@ -217,19 +217,10 @@ article
 	color: #FDD835;
 	margin-left: 5px;
 	margin-right: 20px;
-
+	
 }
 
-.icones_titres h3
-{
-	color: #455A64;
-}
-
-.icones_titres h4 p
-{
-	color: #455A64;
-}
-
+/* icones avec titres soulignés en jaune*/
 .icones_titres
 {
 	display: flex;
@@ -238,7 +229,11 @@ article
 	padding-bottom: 7px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
 
+.icones_titres i
+{
+	height: 20px;
 }
 
 #parcour article
@@ -260,11 +255,19 @@ article
 	justify-content: flex-start;
 }
 
+.intitule h4,p
+{
+	font-family: 'Comic Sans MS';
+	font-style: italic;
+}
 
+
+/*
 .fas .fa-circle
 {
 	height: 5px;
 }
+*/
 
 #parcour h1
 {
@@ -276,10 +279,3 @@ article
 	font-size: x-large;
 	color: black;
 }
-
-/*
-.date,.intitule
-{
-	color: #455A64;
-}
-*/
