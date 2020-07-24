@@ -70,7 +70,11 @@ table {
     background-color: #FDD835;
 	width: 30%;
 	height: 100%;
+}
 
+#parcour .contact,.loisirs
+{
+	flex-grow: 1;
 }
 
 .photo img
@@ -111,14 +115,19 @@ table {
 	margin-bottom: 10px;
 }
 
-.a_propos
+
+#colonne .a_propos
 {
 	/*
 	display: flex;
 	min-height: 50%;
 	flex-grow: 1;
 	*/
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
 }
+
 
 .a_propos p
 {
@@ -129,7 +138,7 @@ table {
 .loisirs
 {
 	height: 30%;
-	display: wrap;
+	/*display: wrap;*/
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -167,11 +176,16 @@ table {
 	
 }
 
-header
+#parcour .header
 {
 	margin-top: 7%;
 	max-height: 20%;
 	width: 100%;
+}
+
+#parcour .header h2
+{
+	color: #455A64;
 }
 
 main
@@ -182,6 +196,7 @@ main
 #parcour h1, h2, h3
 {
 	text-transform: uppercase;
+	color: #455A64;
 }
 
 
