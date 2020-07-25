@@ -214,6 +214,7 @@ article
 {
 	display: flex;
 	align-content: space-between;
+
 }
 
 .intitule
@@ -252,6 +253,11 @@ article
 #parcour .date,.intitule
 {
 	text-align: left;
+}
+
+.date + .intitule h3, h5, p
+{
+	padding-top: 10px;
 }
 
 .date
