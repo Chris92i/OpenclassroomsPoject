@@ -238,7 +238,7 @@ article
 	border-bottom: 2px solid #FDD835;
 	padding-bottom: 7px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 
@@ -267,14 +267,6 @@ article
 	font-style: italic;
 }
 
-
-/*
-.fas .fa-circle
-{
-	height: 5px;
-}
-*/
-
 #parcour h1
 {
 	font-size: xx-large;
@@ -284,4 +276,9 @@ article
 {
 	font-size: x-large;
 	color: black;
+}
+
+#parcour h4
+{
+	font-weight: bold;
 }
