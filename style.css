@@ -96,12 +96,21 @@ table {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 100%;
+	margin-bottom: 10px;
 	
+}
+
+.photo
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .contact
 {
 	text-align: left;	
+	margin-bottom: 10px;
+
 }
 
 .contact p
@@ -122,33 +131,23 @@ table {
 
 .a_propos p
 {
-	padding: 5px 25px 5px 25px;
+	padding: 10px 25px 20px 25px;
 	
 }
 
 
 .loisirs
 {
-	/*display: wrap;*/
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.loisirs i
-{
-	/*
-	padding: 5px 0px 5px 5px;
-	width: 30%;
-	margin: auto;
-	justify-content: center;
-	*/
-}
 
 .icone_loisirs
 {
 	display: flex;
 	justify-content: space-around;
-	padding: 5px;
+	padding: 10px;
 	margin: auto;
 	
 }
