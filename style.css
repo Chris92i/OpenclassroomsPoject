@@ -190,6 +190,10 @@ main
 	color: #455A64;
 }
 
+#parcour h3
+{
+	font-weight: bold;
+}
 
 .chris
 {
@@ -237,10 +241,6 @@ article
 	margin-bottom: 20px;
 }
 
-.icones_titres i
-{
-	height: 20px;
-}
 
 #parcour article
 {
