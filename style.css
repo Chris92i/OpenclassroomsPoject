@@ -180,6 +180,7 @@ table {
 {
 	color: #455A64;
 	text-transform: lowercase;
+	padding-top: 10px;
 }
 
 main
@@ -206,6 +207,7 @@ main
 .dev
 {
 	text-decoration: underline #FDD835;
+	text-transform: none;
 }
 
 section
