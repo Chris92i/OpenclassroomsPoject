@@ -64,7 +64,7 @@ table {
 	
 }
 
-/* tout ce qui concerne la colonne de gauche */
+												/* tout ce qui concerne la colonne de gauche */
 
 #colonne
 { 
@@ -156,7 +156,7 @@ table {
 }
 
 
-/* tout ce qui concerne la partie de droite */
+												/* tout ce qui concerne la partie de droite */
 
 #parcour
 {
@@ -179,6 +179,7 @@ table {
 #parcour .header h2
 {
 	color: #455A64;
+	text-transform: lowercase;
 }
 
 main
@@ -238,6 +239,7 @@ article
 {
 	display: flex;
 	justify-content: flex-start;
+	align-items: baseline;
 	border-bottom: 2px solid #FDD835;
 	padding-bottom: 7px;
 	margin-top: 20px;
@@ -258,7 +260,7 @@ article
 	text-align: left;
 }
 
-.date + .intitule h3, h5, p
+.date + .intitule h3, h5, p, i
 {
 	padding-top: 10px;
 }
