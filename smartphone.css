@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px)
+{
+   #conteneur_global
+   {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+
+   } 
+
+   #conteneur_global .colonne, .parcour
+   {
+       width: 100%;
+   }
+}
