@@ -5,24 +5,54 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap-reverse;
-        
-
    } 
 
-   #colonne
-   {
-       width: 100%;
-   }
-  
-   #parcour .article_1, .article_2, .article_3
+                                         /*   partie blanche parcour     */   
+                                         
+                                         
+
+
+
+   #parcour
    {
        display: flex;
        flex-wrap: wrap;
+       
+    }
+   
+    .icones_titres
+    {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+
+   #parcour .date, .intitule
+   {
+        padding-top: 5px;
    }
 
-   .icone_loisirs
-   {
-       justify-content: space-between;
-       width: 100%;
-   }
+    
+                                                    /*   colonne jaune     */
+    
+    #colonne
+    {
+        width: 100%;
+    }
+    
+    #parcour article
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 5px;
+        margin-top: 5px;    
+    }
+
+    .icone_loisirs
+    {
+        justify-content: space-between;
+        width: 100%;
+    }
 }
