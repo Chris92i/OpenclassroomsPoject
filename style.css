@@ -73,6 +73,7 @@ table {
 	width: 30%;
 	display: flex;
 	flex-direction: column;
+	color: #455A64;
 }
 
 
@@ -155,7 +156,11 @@ table {
 	margin: auto;
 	width: 100%;
 	box-sizing: border-box;
-	
+}
+
+.test1 {
+	border: #455A64;
+	border-radius: 50%;
 }
 
 
@@ -297,3 +302,4 @@ article
 {
 	font-weight: bold;
 }
+
