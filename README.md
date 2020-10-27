@@ -1,2 +1,2 @@
 # OpenclassroomsPoject
-projet 1 CV en ligne
+projet 2 CV en ligne
