@@ -170,6 +170,36 @@ table {
 
 /* ************** tout ce qui concerne la partie de droite ********************** */
 
+.titre
+{
+	font: inherit;
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: serif;
+	/* font-family: 'Comic Sans MS'; */
+}
+
+.sous-titre 
+{
+	font: inherit;
+	font-size: 1.1rem;
+	/* font-weight: bold;
+	text-transform: uppercase; */
+	font-family: serif;
+	/* font-family: 'Comic Sans MS'; */
+}
+
+.reco_sous_titre
+{
+	font: inherit;
+	font-size: 1.1rem;
+	font-weight: bold;
+	/* text-transform: uppercase; */
+	font-family: serif;
+	/* font-family: 'Comic Sans MS'; */	
+}
+
 #parcour
 {
 	width: 100%;
