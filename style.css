@@ -312,6 +312,14 @@ article
 	margin-bottom: 20px;
 }
 
+.testdiv
+{
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
 #parcour .date,.intitule
 {
 	text-align: left;
